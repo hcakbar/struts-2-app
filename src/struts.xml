@@ -6,7 +6,7 @@
 
 <struts>
     <package name="default" namespace="/myApp" extends="struts-default">
-        <action name="getApp" class="org.akbar.app.MyAppAction">
+        <action name="getApp" class="org.akbar.app.action.TutorialAction">
             <!--if action class execute returns a 'success' show success.jsp page-->
             <result name="success">/success.jsp</result>
             <result name="failure">/error.jsp</result>
