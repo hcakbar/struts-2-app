@@ -5,7 +5,7 @@
         "http://struts.apache.org/dtds/struts-2.5.dtd">
 
 <struts>
-    <package name="default" extends="struts-default">
+    <package name="default" namespace="/myApp" extends="struts-default">
         <action name="getApp" class="org.akbar.app.MyAppAction">
             <!--if action class execute returns a 'success' show success.jsp page-->
             <result name="success">/success.jsp</result>
